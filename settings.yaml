@@ -1,0 +1,6 @@
+Job:
+  IsMainNet:
+    settings-key: Rootstock-IsMainNet
+MonitoringServiceClient:
+  MonitoringServiceUrl:
+    settings-key: MonitoringServiceUrl
