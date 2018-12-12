@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.BilJob.Rootstock", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2F2CEF3-D057-44E2-834C-3571E22A211B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{64BAB647-39E1-4158-BFD5-8CF9E8A68922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.BilJob.Rootstock.Tests", "tests\Lykke.BilJob.Rootstock.Tests\Lykke.BilJob.Rootstock.Tests.csproj", "{395AB0B2-72E7-4CBF-8E3D-96790CA9DCD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +18,13 @@ Global
 		{D4D620E7-D488-402C-8B59-6F1191998FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D620E7-D488-402C-8B59-6F1191998FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D620E7-D488-402C-8B59-6F1191998FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395AB0B2-72E7-4CBF-8E3D-96790CA9DCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395AB0B2-72E7-4CBF-8E3D-96790CA9DCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395AB0B2-72E7-4CBF-8E3D-96790CA9DCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395AB0B2-72E7-4CBF-8E3D-96790CA9DCD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D4D620E7-D488-402C-8B59-6F1191998FC4} = {F2F2CEF3-D057-44E2-834C-3571E22A211B}
+		{395AB0B2-72E7-4CBF-8E3D-96790CA9DCD8} = {64BAB647-39E1-4158-BFD5-8CF9E8A68922}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,46 @@
 Job:
+  BalanceMonitoringMaxDegreeOfParallelism:
+    settings-key: Bcn-RBTC-Job-BalanceMonitoringMaxDegreeOfParallelism
+  BlockchainIndexationMaxDegreeOfParallelism:
+    settings-key: Bcn-RBTC-Job-BlockchainIndexationMaxDegreeOfParallelism
+  BlockLockDuration:
+    settings-key: Bcn-RBTC-Job-BlockLockDuration
+  ConfirmationLevel:
+    settings-key: Bcn-RBTC-Job-ConfirmationLevel
+  Db:
+    DataConnString:
+      settings-key: Bcn-RBTC-DataConnString
+      types:
+        - AzureTableStorage
+    LogsConnString:
+      settings-key: BcnLogsConnString
+      types:
+        - AzureTableStorage
+  GasPriceRange:
+    settings-key: Bcn-RBTC-GasPriceRange
+  IndexOnlyOwnTransactions:
+    settings-key: Bcn-RBTC-Job-IndexOnlyOwnTransactions
   IsMainNet:
-    settings-key: Rootstock-IsMainNet
+    settings-key: Bcn-RBTC-IsMainNet
+  MinBlockNumberToIndex:
+    settings-key: Bcn-RBTC-Job-MinBlockNumberToIndex
+  RpcNode:
+    ApiUrl:
+      settings-key: Bcn-RBTC-RpcNodeApiUrl
+    ConnectionTimeout:
+      settings-key: Bcn-RBTC-RpcNodeConnectionTimeout
+    EnableTelemetry:
+      settings-key: Bcn-RBTC-RpcNodeEnableTelemetry
+  TransactionMonitoringMaxDegreeOfParallelism:
+    settings-key: Bcn-RBTC-Job-TransactionMonitoringMaxDegreeOfParallelism
+SlackNotifications:
+  AzureQueue:
+    ConnectionString:
+      settings-key: SlackNotificationsConnString
+      types:
+        - AzureTableStorage
+    QueueName:
+      settings-key: SlackQueueName
 MonitoringServiceClient:
   MonitoringServiceUrl:
     settings-key: MonitoringServiceUrl
