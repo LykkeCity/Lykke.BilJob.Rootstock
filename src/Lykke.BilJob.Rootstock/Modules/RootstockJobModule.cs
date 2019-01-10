@@ -1,6 +1,7 @@
 using Autofac;
 using JetBrains.Annotations;
 using Lykke.BilJob.Rootstock.Settings;
+using Lykke.Quintessence.Core.Telemetry.DependencyInjection;
 using Lykke.Quintessence.DependencyInjection;
 using Lykke.Quintessence.Settings;
 using Lykke.SettingsReader;
@@ -22,6 +23,7 @@ namespace Lykke.BilJob.Rootstock.Modules
             ContainerBuilder builder)
         {
             builder
+                .UseAITelemetryConsumer()
                 .UseRootstock
                 (
                     _appSettings.ConnectionString(x => x.Job.Db.DataConnString),

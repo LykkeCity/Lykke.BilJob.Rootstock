@@ -6,7 +6,7 @@ Job:
   BlockLockDuration:
     settings-key: Bcn-RBTC-Job-BlockLockDuration
   ConfirmationLevel:
-    settings-key: Bcn-RBTC-Job-ConfirmationLevel
+    settings-key: Bcn-RBTC-ConfirmationLevel
   Db:
     DataConnString:
       settings-key: Bcn-RBTC-DataConnString
