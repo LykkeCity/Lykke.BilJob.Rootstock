@@ -22,6 +22,8 @@ Job:
     settings-key: Bcn-RBTC-Job-IndexOnlyOwnTransactions
   IsMainNet:
     settings-key: Bcn-RBTC-IsMainNet
+  MaximalBalanceCheckPeriod:
+    settings-key: Bcn-RBTC-Job-MaximalBalanceCheckPeriod
   MinBlockNumberToIndex:
     settings-key: Bcn-RBTC-Job-MinBlockNumberToIndex
   RpcNode:
