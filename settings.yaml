@@ -13,7 +13,7 @@ Job:
       types:
         - AzureTableStorage
     LogsConnString:
-      settings-key: BcnLogsConnString
+      settings-key: Bcn-RBTC-LogsConnString
       types:
         - AzureTableStorage
   GasPriceRange:
